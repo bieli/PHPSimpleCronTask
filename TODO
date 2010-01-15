@@ -1,0 +1,4 @@
+ - refactoring for logger class
+ - optimization source
+ - use implementation for tasks
+ - write free domains in database
