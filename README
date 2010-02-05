@@ -1,1 +1,12 @@
 Simple task scheduler for executing tasks written in scripting languages like PHP
+
+Batch folder it it place for SimpleCronTasks witch implements SimpleCronTasksInterface.
+
+For run test please use below commands in terminal:
+
+cd test
+php cron-30min.php
+
+After SimpleCronTask execution you can reviewe logs in log/ directory 
+and output data in data/ directory.
+

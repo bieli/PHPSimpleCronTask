@@ -33,6 +33,7 @@ $_registredClases = array(
                      'SimpleFileLogger',
                      'PropertiesManager',
                      'SimpleCronTask'
+//                     'SimpleCronTaskInterface'
                     );
 
 foreach ( $_registredClases as $_class_Key => $_classNameValue )

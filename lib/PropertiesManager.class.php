@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * Properties manager object
+ *
+ * Storing all properties in object's fields
+ */
 class PropertiesManager extends SimpleFileLogger
 {
     const ERR_MSG_PATTERN = '%s: Not exists property "%s" in object "%s"';

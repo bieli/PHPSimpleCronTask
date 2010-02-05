@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * SimpleCronTasks runner object
+ *
+ */
 class SimpleCronTask extends PropertiesManager
 {
     private $taskLogger = null;

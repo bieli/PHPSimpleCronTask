@@ -1,0 +1,81 @@
+user@domain:~/$ mkdir PHPSimpleCronTask
+user@domain:~/$   cd PHPSimpleCronTask
+user@domain:~/PHPSimpleCronTask$   git init
+Initialized empty Git repository in /media/sda3/_priv_dev/dev/PHPSimpleCronTask/.git/
+user@domain:~/PHPSimpleCronTask$ touch README
+user@domain:~/PHPSimpleCronTask$ cat > README
+Simple task scheduler for executing tasks written in many scripting languages like PHP, Python, Ruby
+^Z
+[1]+  Stopped                 cat > README
+user@domain:~/PHPSimpleCronTask$ git add README
+user@domain:~/PHPSimpleCronTask$ git commit -m 'first commit'
+Created initial commit 73b186d: first commit
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 README
+user@domain:~/PHPSimpleCronTask$ git remote add origin git@github.com:bieli/PHPSimpleCronTask.git
+user@domain:~/PHPSimpleCronTask$ git push origin master
+The authenticity of host 'github.com (207.97.227.239)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,207.97.227.239' (RSA) to the list of known hosts.
+Counting objects: 3, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:bieli/PHPSimpleCronTask.git
+ * [new branch]      master -> master
+
+
+From first repo create github manual
+
+
+Global setup:
+
+  Download and install Git
+  git config --global user.name "Marcin Bielak"
+  git config --global user.email marcin.bieli@gmail.com
+        
+
+Next steps:
+
+  mkdir PHPSimpleCronTask
+  cd PHPSimpleCronTask
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:bieli/PHPSimpleCronTask.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:bieli/PHPSimpleCronTask.git
+  git push origin master
+      
+
+Importing a Subversion Repo?
+
+  Click here
+      
+
+When you're done:
+
+  Continue
+
+
+
+
+-------------------------------------------------------
+Add tag
+
+$ git tag 1.0-BETA -a -m "add tag 1.0 BETA"
+
+$ git push --tags
+Counting objects: 1, done.
+Writing objects: 100% (1/1), 172 bytes, done.
+Total 1 (delta 0), reused 0 (delta 0)
+To git@github.com:bieli/PHPSimpleCronTask.git
+ * [new tag]         1.0-BETA -> 1.0-BETA
+

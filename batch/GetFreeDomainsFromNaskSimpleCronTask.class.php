@@ -2,7 +2,7 @@
 
 class GetFreeDomainsFromNaskSimpleCronTask
 //TODO: extends SimpleCronTask 
-//TODO: implements SimpleCronTaskInterface
+implements SimpleCronTaskInterface
 {
     const DATETIME_FORMAT = 'Ymd_His';
 
